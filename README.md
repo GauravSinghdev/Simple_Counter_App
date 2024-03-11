@@ -1,4 +1,4 @@
-# Counter App
+## Counter App
 
 This project contains a simple Counter app with basic HTML, CSS and JavaScript.
 
