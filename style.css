@@ -9,16 +9,17 @@ h1{
 }
 
 button{
-    background-color: #04AA6D;
-    border: solid black;
+    background-color:brown;
+    /* border: solid black; */
     color: white;
     padding: 15px 32px;
     margin-right: 20px;
     font-size: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: #04AA6D; /* Green */
     color: white;
-    cursor: pointer;
   }
