@@ -1,4 +1,4 @@
-## Counter App without React
+## Counter App without React.js
 
 This project contains a simple Counter app with basic HTML, CSS and JavaScript.
 
