@@ -1,10 +1,10 @@
+*{
+    font-family: cursive;
+}
+
 body{
     background-color:burlywood;
     text-align: center;
-}
-
-h1{
-    text-decoration: underline;
 }
 
 button{
@@ -22,3 +22,8 @@ button:hover {
     background-color: #04AA6D; /* Green */
     color: white;
   }
+
+#greeting-msg{
+    color: #31363F;
+    font-size: 30px;
+  }  
