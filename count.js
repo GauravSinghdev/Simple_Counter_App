@@ -29,7 +29,7 @@ function greeting()
     {
         greeting = "Good Morning there";
     }
-    else if(hour>12 && hour>18)
+    else if(hour>12 && hour<18)
     {
         greeting = "Goode Afternoon there";
     }
