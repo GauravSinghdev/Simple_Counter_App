@@ -5,7 +5,7 @@ function start()
     const a = parseInt(document.getElementById("init").innerHTML);
     const ans = a+1;
     document.getElementById("init").innerHTML = ans;
-    },10);
+    },100);
 }
 
 function stop()
@@ -29,7 +29,7 @@ function greeting()
     {
         greeting = "Good Morning there";
     }
-    else if(hour>12 && hour<18)
+    else if(hour>11 && hour<17)
     {
         greeting = "Goode Afternoon there";
     }
@@ -56,7 +56,12 @@ function getdate()
     }
     else dt = "PM";
 
-    let hour = date1 - 12;
+    let hour = date1;
+
+    if(hour>12) 
+    {
+        hour = hour - 12;
+    }
     let min = date.getMinutes();
     let sec = date.getSeconds();
     const d = document.getElementById("showdate");
